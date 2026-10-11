@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "sampled": 20,
+    "judged": 20,
+    "match": 15,
+    "weak_only": 1,
+    "miss": 4,
+    "unreachable_or_blocked": 0,
+    "hard_tier_judged": 8,
+    "hard_tier_match": 7,
+    "precision_all_judged": 75,
+    "precision_hard_tier": 87.5,
+    "generated_at": "2026-10-11T16:45:45.462Z"
+  },
+  "lines": [
+    {
+      "basedagents_id": "ag_2BGBwhmtDp3KPzd4mprqvKfTDjHyrEEpnXYq5SnAMBzm",
+      "url": "https://shadowharness.com/agents/shadowharness/",
+      "result": "MATCH",
+      "detail": "external_id page contains the exact BasedAgents agent id",
+      "tier": "verified",
+      "http": 200,
+      "bytes": 20830,
+      "fetched_at": "2026-10-11T16:45:15.947Z"
+    },
+    {
+      "basedagents_id": "ag_77ynDzSES7vUDkx4GGEiVA4VVSqVByNGCZRtHv9A9TcA",
+      "url": "https://bounty-engineer-x402-prod.onrender.com/basedagents-auto/status",
+      "result": "MATCH",
+      "detail": "external_id page contains the exact BasedAgents agent id",
+      "tier": "verified",
+      "http": 200,
+      "bytes": 432,
+      "fetched_at": "2026-10-11T16:45:16.940Z"
+    },
+    {
+      "basedagents_id": "ag_Cg1CxzCYEnifnKRSo5q23BvhrpVG7t7PUY5uFnkiXZjw",
+      "url": "https://eu-tender-x402-v3-production.up.railway.app/.well-known/x402",
+      "result": "MATCH",
+      "detail": "external_id page contains the profile wallet address",
+      "tier": "strong",
+      "http": 200,
+      "bytes": 1207,
+      "fetched_at": "2026-10-11T16:45:18.688Z"
+    },
+    {
+      "basedagents_id": "ag_A2SdKs3PJAoAu9gmamjXk52L7KKrniHFLjCbxXzZUBvb",
+      "url": "https://agentkit-x402-buy.netlify.app/.well-known/x402",
+      "result": "MATCH",
+      "detail": "external_id page contains the profile wallet address",
+      "tier": "strong",
+      "http": 200,
+      "bytes": 2993,
+      "fetched_at": "2026-10-11T16:45:20.966Z"
+    },
+    {
+      "basedagents_id": "ag_D5QLVoK1U5mm7UjRFPu9Bh2cduqc92fc6Cz9qe7EqWnM",
+      "url": "https://mundodr.github.io/ten-dollar-wallet-test/",
+      "result": "MATCH",
+      "detail": "external_id page contains the profile wallet address",
+      "tier": "strong",
+      "http": 200,
+      "bytes": 10483,
+      "fetched_at": "2026-10-11T16:45:22.304Z"
+    },
+    {
+      "basedagents_id": "ag_BG34iMwRqphVsky5zSKgPuFwxvywhE88asG3UVZnaU8n",
+      "url": "https://signalsprint-mqysbksh.manus.space/.well-known/x402",
+      "result": "MATCH",
+      "detail": "external_id page contains the profile wallet address",
+      "tier": "strong",
+      "http": 200,
+      "bytes": 1219,
+      "fetched_at": "2026-10-11T16:45:23.520Z"
+    },
+    {
+      "basedagents_id": "ag_785viZhiz8WjigamgT1GRVgqXjZjrtyvgLNriGmrPvG6",
+      "url": "https://dolihi-preflight.onrender.com/.well-known/x402",
+      "result": "MATCH",
+      "detail": "external_id page contains the profile wallet address",
+      "tier": "strong",
+      "http": 200,
+      "bytes": 10713,
+      "fetched_at": "2026-10-11T16:45:26.188Z"
+    },
+    {
+      "basedagents_id": "ag_8vqsRqex7u5yGExgktk3joKHdgEG2xBT2xsqfDVsVycs",
+      "url": "https://crossingkeyintelligence.com",
+      "result": "MISS",
+      "detail": "page reachable, no agent id or wallet found in the fetched body",
+      "tier": "strong",
+      "http": 200,
+      "bytes": 2199,
+      "fetched_at": "2026-10-11T16:45:27.867Z"
+    },
+    {
+      "basedagents_id": "ag_FBJF9zqQKKLqSY92FddvZ1RShmUHoeSJDB7CGEUEHg9a",
+      "url": "registry:io.github.Albert-Tam/scrappycoco",
+      "result": "MATCH",
+      "detail": "registry search returned 1 entries; exact server-name match: true",
+      "tier": "weak",
+      "fetched_at": "2026-10-11T16:45:30.183Z"
+    },
+    {
+      "basedagents_id": "ag_5PB4tD9dtvvtQbCWyyPCLRbsi9H5PMh8HbYxxCm3kL3b",
+      "url": "registry:br.com.rebasedev/vagas",
+      "result": "MATCH",
+      "detail": "registry search returned 1 entries; exact server-name match: true",
+      "tier": "weak",
+      "fetched_at": "2026-10-11T16:45:31.014Z"
+    },
+    {
+      "basedagents_id": "ag_97AT2Wcb33QT5icBF7AbCt2LScTXjQ1o8iRGjQJKyavU",
+      "url": "registry:net.payflowagent/mcp",
+      "result": "MATCH",
+      "detail": "registry search returned 1 entries; exact server-name match: true",
+      "tier": "weak",
+      "fetched_at": "2026-10-11T16:45:31.949Z"
+    },
+    {
+      "basedagents_id": "ag_CUSQWUVFDkYtQiYB6jMEGwdWov5QZHhFQE3zD374H3Nt",
+      "url": "https://github.com/ysyhlly",
+      "result": "MISS",
+      "detail": "page reachable, no agent id or wallet found in the fetched body",
+      "tier": "weak",
+      "http": 200,
+      "bytes": 200000,
+      "fetched_at": "2026-10-11T16:45:32.557Z"
+    },
+    {
+      "basedagents_id": "ag_L5DSALfbHhztuSAhZTpspgnPxQTvWHd4gBJPabAwmdD",
+      "url": "registry:io.github.JonahAlexanian/cpfs-mcp",
+      "result": "MATCH",
+      "detail": "registry search returned 8 entries; exact server-name match: true",
+      "tier": "weak",
+      "fetched_at": "2026-10-11T16:45:34.639Z"
+    },
+    {
+      "basedagents_id": "ag_cfj9aQeoG9rT5BSdyfy9FAg8QnsbGoVdFCP5mugZwoC",
+      "url": "registry:com.danielsdesignstudio/mirror-ai-citability",
+      "result": "MATCH",
+      "detail": "registry search returned 8 entries; exact server-name match: true",
+      "tier": "weak",
+      "fetched_at": "2026-10-11T16:45:35.622Z"
+    },
+    {
+      "basedagents_id": "ag_AbvviCAMRPtVqPbLXXdLJpFirgjvpQXAPJ4s3J8C61wh",
+      "url": "https://github.com/aria-nilradical",
+      "result": "MISS",
+      "detail": "page reachable, no agent id or wallet found in the fetched body",
+      "tier": "weak",
+      "http": 200,
+      "bytes": 189130,
+      "fetched_at": "2026-10-11T16:45:36.226Z"
+    },
+    {
+      "basedagents_id": "ag_5uX5iK1Df5nbioZmRWAZh7FsUTXrhmc4D3SCoBXh1Syd",
+      "url": "https://github.com/maxfain/basedagents",
+      "result": "MISS",
+      "detail": "page reachable, no agent id or wallet found in the fetched body",
+      "tier": "weak",
+      "http": 200,
+      "bytes": 200000,
+      "fetched_at": "2026-10-11T16:45:37.457Z"
+    },
+    {
+      "basedagents_id": "ag_3PSQ4y5DL14vtg1PMqcvhthVTfis8DVrHv5YCwYCeMv5",
+      "url": "https://agentlot.io/.well-known/agent.json",
+      "result": "WEAK-ONLY",
+      "detail": "page reachable but only 1055 bytes and no id/wallet (one-way profile link)",
+      "tier": "weak",
+      "http": 200,
+      "bytes": 1055,
+      "fetched_at": "2026-10-11T16:45:39.066Z"
+    },
+    {
+      "basedagents_id": "ag_AwykceDxkvE1hxmxkmd1k2Sr35ugsSKTRm1azw4PBxVv",
+      "url": "registry:com.run402.chiefofstaff-solana/token-safety",
+      "result": "MATCH",
+      "detail": "registry search returned 2 entries; exact server-name match: true",
+      "tier": "weak",
+      "fetched_at": "2026-10-11T16:45:41.519Z"
+    },
+    {
+      "basedagents_id": "ag_GndCYg47RDMC4t1jzjx7gFD96VrXLB2ttD1hFwoyGjwm",
+      "url": "registry:com.stagenth/browser",
+      "result": "MATCH",
+      "detail": "registry search returned 2 entries; exact server-name match: true",
+      "tier": "weak",
+      "fetched_at": "2026-10-11T16:45:43.136Z"
+    },
+    {
+      "basedagents_id": "ag_24sEA52BHRJ12GRzZLReEgLwZizEdHBHvuSEkowG4jDy",
+      "url": "registry:io.github.attestagents/attest-mcp",
+      "result": "MATCH",
+      "detail": "registry search returned 1 entries; exact server-name match: true",
+      "tier": "weak",
+      "fetched_at": "2026-10-11T16:45:44.851Z"
+    }
+  ]
+}

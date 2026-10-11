@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-10-11T16:43:50.593Z",
+  "agents_enumerated": 707,
+  "link_rows": 29,
+  "rows_dropped_by_distinctness_filter": 796,
+  "top_dropped_shared_entities": [
+    {
+      "external_id": "https://bounty-engineer-x402-api.onrender.com/.well-known/agent.json",
+      "agents_dropped": 145
+    },
+    {
+      "external_id": "https://bounty-engineer-x402-api.onrender.com/.well-known/agent-card.json",
+      "agents_dropped": 145
+    },
+    {
+      "external_id": "https://bounty-engineer-x402-api.onrender.com/.well-known/x402",
+      "agents_dropped": 145
+    },
+    {
+      "external_id": "https://bounty-engineer-x402-prod.onrender.com/.well-known/agent.json",
+      "agents_dropped": 105
+    },
+    {
+      "external_id": "https://bounty-engineer-x402-prod.onrender.com/.well-known/agent-card.json",
+      "agents_dropped": 105
+    },
+    {
+      "external_id": "https://bounty-engineer-x402-prod.onrender.com/.well-known/x402",
+      "agents_dropped": 105
+    },
+    {
+      "external_id": "https://basedagents.ai/.well-known/agent.json",
+      "agents_dropped": 8
+    },
+    {
+      "external_id": "https://basedagents.ai/.well-known/x402",
+      "agents_dropped": 8
+    }
+  ],
+  "distinctness_rule": "a weak row survives only when its external_id is claimed by exactly one agent, or when the id itself carries that agent's id/name; host-generic documents shared by many agents are dropped and listed in links_dropped_shared.json rather than silently kept",
+  "rows_by_tier": {
+    "verified": 2,
+    "strong": 6,
+    "weak": 21
+  },
+  "rows_by_registry": {
+    "mcp-registry": 16,
+    "shadowharness.com": 1,
+    "x402-manifest": 4,
+    "github": 3,
+    "agentkit-x402-buy.netlify.app": 1,
+    "mundodr.github.io": 1,
+    "a2a-wellknown": 2,
+    "bounty-engineer-x402-prod.onrender.com": 1
+  },
+  "agents_with_at_least_one_real_link": 28,
+  "coverage_pct": 4,
+  "agents_with_verified_or_strong": 8,
+  "hard_coverage_pct": 1.1,
+  "http_status_counts": {},
+  "fetches": 0
+}

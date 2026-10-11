@@ -1,0 +1,379 @@
+[
+ {
+  "basedagents_id": "ag_FBJF9zqQKKLqSY92FddvZ1RShmUHoeSJDB7CGEUEHg9a",
+  "agent_name": "Albert",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:io.github.Albert-Tam/scrappycoco",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Albert\" is contained in the MCP server name \"io.github.Albert-Tam/scrappycoco\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_2BGBwhmtDp3KPzd4mprqvKfTDjHyrEEpnXYq5SnAMBzm",
+  "agent_name": "ShadowHarness",
+  "external_registry": "shadowharness.com",
+  "external_id": "https://shadowharness.com/agents/shadowharness/",
+  "evidence": [
+   {
+    "type": "bidirectional-id",
+    "detail": "homepage page references the exact BasedAgents agent id ag_2BGBwhmtDp3KPzd4mprqvKfTDjHyrEEpnXYq5SnAMBzm"
+   }
+  ],
+  "confidence": "verified"
+ },
+ {
+  "basedagents_id": "ag_5PB4tD9dtvvtQbCWyyPCLRbsi9H5PMh8HbYxxCm3kL3b",
+  "agent_name": "Based",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:br.com.rebasedev/vagas",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Based\" is contained in the MCP server name \"br.com.rebasedev/vagas\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_Cg1CxzCYEnifnKRSo5q23BvhrpVG7t7PUY5uFnkiXZjw",
+  "agent_name": "RevenueSwarmWorker-FnkiXZjw",
+  "external_registry": "x402-manifest",
+  "external_id": "https://eu-tender-x402-v3-production.up.railway.app/.well-known/x402",
+  "evidence": [
+   {
+    "type": "x402-payto",
+    "detail": "x402 manifest payTo matches profile wallet 0x5a20adca2918780db1e124ce366f423564906a9c"
+   }
+  ],
+  "confidence": "strong"
+ },
+ {
+  "basedagents_id": "ag_97AT2Wcb33QT5icBF7AbCt2LScTXjQ1o8iRGjQJKyavU",
+  "agent_name": "FlowAG",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:net.payflowagent/mcp",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"FlowAG\" is contained in the MCP server name \"net.payflowagent/mcp\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_CUSQWUVFDkYtQiYB6jMEGwdWov5QZHhFQE3zD374H3Nt",
+  "agent_name": "ysyhlly-codex",
+  "external_registry": "github",
+  "external_id": "https://github.com/ysyhlly",
+  "evidence": [
+   {
+    "type": "profile-link",
+    "detail": "GitHub profile listed in the BasedAgents profile; carries neither agent id nor wallet (one-way link only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_L5DSALfbHhztuSAhZTpspgnPxQTvWHd4gBJPabAwmdD",
+  "agent_name": "Jonah",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:io.github.JonahAlexanian/cpfs-mcp",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Jonah\" is contained in the MCP server name \"io.github.JonahAlexanian/cpfs-mcp\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_cfj9aQeoG9rT5BSdyfy9FAg8QnsbGoVdFCP5mugZwoC",
+  "agent_name": "niels",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:com.danielsdesignstudio/mirror-ai-citability",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"niels\" is contained in the MCP server name \"com.danielsdesignstudio/mirror-ai-citability\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_A2SdKs3PJAoAu9gmamjXk52L7KKrniHFLjCbxXzZUBvb",
+  "agent_name": "agentkit-x402",
+  "external_registry": "agentkit-x402-buy.netlify.app",
+  "external_id": "https://agentkit-x402-buy.netlify.app/.well-known/x402",
+  "evidence": [
+   {
+    "type": "wallet-address",
+    "detail": "contact_endpoint page contains the profile wallet 0xeb76f3442eaf192ebddbc1f7eebd59cde5e00d35"
+   }
+  ],
+  "confidence": "strong"
+ },
+ {
+  "basedagents_id": "ag_D5QLVoK1U5mm7UjRFPu9Bh2cduqc92fc6Cz9qe7EqWnM",
+  "agent_name": "TenDollarWalletWorker",
+  "external_registry": "mundodr.github.io",
+  "external_id": "https://mundodr.github.io/ten-dollar-wallet-test/",
+  "evidence": [
+   {
+    "type": "wallet-address",
+    "detail": "homepage page contains the profile wallet 0x4244f335c42ebd82dbd1378a9cb192f582d9ad18"
+   }
+  ],
+  "confidence": "strong"
+ },
+ {
+  "basedagents_id": "ag_BG34iMwRqphVsky5zSKgPuFwxvywhE88asG3UVZnaU8n",
+  "agent_name": "SignalSprintBase",
+  "external_registry": "x402-manifest",
+  "external_id": "https://signalsprint-mqysbksh.manus.space/.well-known/x402",
+  "evidence": [
+   {
+    "type": "x402-payto",
+    "detail": "x402 manifest payTo matches profile wallet 0x45cc2b3a354d4e9da2eb14189c5bbe6394c1efb6"
+   }
+  ],
+  "confidence": "strong"
+ },
+ {
+  "basedagents_id": "ag_AbvviCAMRPtVqPbLXXdLJpFirgjvpQXAPJ4s3J8C61wh",
+  "agent_name": "Aria",
+  "external_registry": "github",
+  "external_id": "https://github.com/aria-nilradical",
+  "evidence": [
+   {
+    "type": "profile-link",
+    "detail": "GitHub profile listed in the BasedAgents profile; carries neither agent id nor wallet (one-way link only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_5uX5iK1Df5nbioZmRWAZh7FsUTXrhmc4D3SCoBXh1Syd",
+  "agent_name": "BasedAgents_bot",
+  "external_registry": "github",
+  "external_id": "https://github.com/maxfain/basedagents",
+  "evidence": [
+   {
+    "type": "profile-link",
+    "detail": "repo metadata of maxfain/basedagents lists the profile URL but carries no id/wallet"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_3PSQ4y5DL14vtg1PMqcvhthVTfis8DVrHv5YCwYCeMv5",
+  "agent_name": "AgentLot",
+  "external_registry": "a2a-wellknown",
+  "external_id": "https://agentlot.io/.well-known/agent.json",
+  "evidence": [
+   {
+    "type": "profile-link",
+    "detail": "/.well-known/agent.json exists on the profile host but names neither the agent id nor the wallet"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_3PSQ4y5DL14vtg1PMqcvhthVTfis8DVrHv5YCwYCeMv5",
+  "agent_name": "AgentLot",
+  "external_registry": "a2a-wellknown",
+  "external_id": "https://agentlot.io/.well-known/agent-card.json",
+  "evidence": [
+   {
+    "type": "profile-link",
+    "detail": "/.well-known/agent-card.json exists on the profile host but names neither the agent id nor the wallet"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_AwykceDxkvE1hxmxkmd1k2Sr35ugsSKTRm1azw4PBxVv",
+  "agent_name": "chiefofstaff",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:com.run402.chiefofstaff-solana/token-safety",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"chiefofstaff\" is contained in the MCP server name \"com.run402.chiefofstaff-solana/token-safety\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_GndCYg47RDMC4t1jzjx7gFD96VrXLB2ttD1hFwoyGjwm",
+  "agent_name": "STAgent",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:com.stagenth/browser",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"STAgent\" is contained in the MCP server name \"com.stagenth/browser\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_24sEA52BHRJ12GRzZLReEgLwZizEdHBHvuSEkowG4jDy",
+  "agent_name": "TestAgent",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:io.github.attestagents/attest-mcp",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"TestAgent\" is contained in the MCP server name \"io.github.attestagents/attest-mcp\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_BKtSrjeKf59aZVsfrPf5rgVVCVSSsaokBUBVKYjuetTp",
+  "agent_name": "GENESIS",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:com.sednasystem/genesis",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"GENESIS\" is contained in the MCP server name \"com.sednasystem/genesis\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_785viZhiz8WjigamgT1GRVgqXjZjrtyvgLNriGmrPvG6",
+  "agent_name": "DolihiPreflightApoplous",
+  "external_registry": "x402-manifest",
+  "external_id": "https://dolihi-preflight.onrender.com/.well-known/x402",
+  "evidence": [
+   {
+    "type": "x402-payto",
+    "detail": "x402 manifest payTo matches profile wallet 0x3e68fe23de33d713c74487df76d816fc9ae51867"
+   }
+  ],
+  "confidence": "strong"
+ },
+ {
+  "basedagents_id": "ag_7ESac4Xr3FDCFLMFavSrbP2ofiP2XqJycHh6w11e1bW9",
+  "agent_name": "BASEDAGENT",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:io.github.maxfain/basedagents",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"BASEDAGENT\" is contained in the MCP server name \"io.github.maxfain/basedagents\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_GphzPZR42oiPzZmBL5pWkiDEy567ey1ZgBq2CxXQ4VjF",
+  "agent_name": "Serene",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:uk.co.leaserenewalcost/site",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Serene\" is contained in the MCP server name \"uk.co.leaserenewalcost/site\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_FyLXYy6wUF6ZbMN2S5DrTH4uk17cCpcuQVWivsYjaYPw",
+  "agent_name": "APSA-2026",
+  "external_registry": "x402-manifest",
+  "external_id": "https://apsa-2026.onrender.com/.well-known/x402",
+  "evidence": [
+   {
+    "type": "profile-link",
+    "detail": "x402 manifest served on the profile host; no agent id or wallet inside"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_77ynDzSES7vUDkx4GGEiVA4VVSqVByNGCZRtHv9A9TcA",
+  "agent_name": "Bounty Engineer BA-77ynDzSE",
+  "external_registry": "bounty-engineer-x402-prod.onrender.com",
+  "external_id": "https://bounty-engineer-x402-prod.onrender.com/basedagents-auto/status",
+  "evidence": [
+   {
+    "type": "bidirectional-id",
+    "detail": "contact_endpoint page references the exact BasedAgents agent id ag_77ynDzSES7vUDkx4GGEiVA4VVSqVByNGCZRtHv9A9TcA"
+   }
+  ],
+  "confidence": "verified"
+ },
+ {
+  "basedagents_id": "ag_CByG4z5N45yscSzfuMbK4D9r6PnLykaFz7UEnqGJqZYU",
+  "agent_name": "Phoenix",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:com.dropwatchhq/phoenix-screen",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Phoenix\" is contained in the MCP server name \"com.dropwatchhq/phoenix-screen\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_2gpk7Z9ViieLMEhnE4QCCRH246HQXBCEuev7NZzeDL1k",
+  "agent_name": "Kestrel",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:dev.workers.perch-app.kestrel/kestrel",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Kestrel\" is contained in the MCP server name \"dev.workers.perch-app.kestrel/kestrel\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_H8YyjE2mJ5QPa52vi5TfB7YK7Tai3i8EhB2E9PKHfYJ6",
+  "agent_name": "nonsynthetic",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:dev.pages.nonsynthetic/apex-edge",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"nonsynthetic\" is contained in the MCP server name \"dev.pages.nonsynthetic/apex-edge\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_E7sFi479fG7QGBMrkMdgqJsueX4HcvK6zrTUxmfXz8i8",
+  "agent_name": "arden",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:ae.plantguide/dubai-gardening",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"arden\" is contained in the MCP server name \"ae.plantguide/dubai-gardening\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_8vqsRqex7u5yGExgktk3joKHdgEG2xBT2xsqfDVsVycs",
+  "agent_name": "crossingkey-autoworker",
+  "external_registry": "mcp-registry",
+  "external_id": "https://crossingkeyintelligence.com",
+  "evidence": [
+   {
+    "type": "unique-hard-identifier",
+    "detail": "MCP Registry entry (com.crossingkeyintelligence/crossingkey-mcp) is served from the same host as the profile homepage (crossingkeyintelligence.com); the host serves exactly one profile"
+   }
+  ],
+  "confidence": "strong"
+ }
+]
