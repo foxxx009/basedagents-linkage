@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T16:43:50.593Z",
+  "generated_at": "2026-10-12T19:28:10.533Z",
   "agents_enumerated": 707,
-  "link_rows": 29,
+  "link_rows": 33,
   "rows_dropped_by_distinctness_filter": 796,
   "top_dropped_shared_entities": [
     {
@@ -41,10 +41,10 @@
   "rows_by_tier": {
     "verified": 2,
     "strong": 6,
-    "weak": 21
+    "weak": 25
   },
   "rows_by_registry": {
-    "mcp-registry": 16,
+    "mcp-registry": 20,
     "shadowharness.com": 1,
     "x402-manifest": 4,
     "github": 3,
@@ -53,10 +53,20 @@
     "a2a-wellknown": 2,
     "bounty-engineer-x402-prod.onrender.com": 1
   },
-  "agents_with_at_least_one_real_link": 28,
-  "coverage_pct": 4,
+  "agents_with_at_least_one_real_link": 30,
+  "coverage_pct": 4.2,
   "agents_with_verified_or_strong": 8,
   "hard_coverage_pct": 1.1,
-  "http_status_counts": {},
-  "fetches": 0
+  "http_status_counts": {
+    "200": 1187,
+    "404": 45,
+    "429": 12,
+    "500": 6,
+    "502": 48,
+    "err:TypeError: fetch failed": 1007,
+    "err:SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not va": 18,
+    "err:TimeoutError: The operation was aborted due to timeout": 263,
+    "err:SyntaxError: Unexpected token '<', \"<!doctype \"... is not va": 14
+  },
+  "fetches": 2600
 }
