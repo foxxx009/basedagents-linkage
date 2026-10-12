@@ -32,7 +32,7 @@ async function getJSON(url, tries = 2) {
   for (let i = 0; i < tries; i++) {
     const t0 = nowISO();
     try {
-      const r = await fetch(url, { headers: UA, signal: AbortSignal.timeout(20000) });
+      const r = await fetch(url, { headers: UA, signal: AbortSignal.timeout(45000) });
       sourceLog.push({ url, http: r.status, fetched_at: t0 });
       if (r.status === 429) { await sleep(4000); continue; }
       if (!r.ok) return { __http: r.status };
@@ -50,7 +50,7 @@ async function getText(url, tries = 1) {
   for (let i = 0; i < tries; i++) {
     const t0 = nowISO();
     try {
-      const r = await fetch(url, { headers: UA, redirect: "follow", signal: AbortSignal.timeout(15000) });
+      const r = await fetch(url, { headers: UA, redirect: "follow", signal: AbortSignal.timeout(30000) });
       sourceLog.push({ url, http: r.status, fetched_at: t0, final_url: r.url });
       if (!r.ok) return { __http: r.status, finalUrl: r.url };
       return { text: (await r.text()).slice(0, 300000), finalUrl: r.url };
@@ -212,7 +212,9 @@ async function probe(agent) {
         let tier = null, rule = null;
         if (sn === n) { tier = "strong"; rule = `exact server-name equality with the profile name ("${sName}")`; }
         else if (n.length >= 5 && sn.includes(n)) { tier = "weak"; rule = `profile name "${name}" is contained in the MCP server name "${sName}" (name rule only)`; }
-        else if (n.length >= 5 && sn.includes(sn) && sn.length >= 5) { tier = "weak"; rule = `MCP server name "${sName}" is contained in the profile name (name rule only)`; }
+        // was `sn.includes(sn)` — a tautology, so this branch fired on every name and
+        // emitted a reverse-containment row that had not been tested at all
+        else if (n.length >= 5 && n.includes(sn) && sn.length >= 5) { tier = "weak"; rule = `MCP server name "${sName}" is contained in the profile name (name rule only)`; }
         if (!tier) continue;
         ev.push({ external_registry: "mcp-registry", external_id: url || `mcp-registry:${sName}`,
           evidence: [{ type: tier === "strong" ? "unique-hard-identifier" : "name-similarity", detail: rule }],
