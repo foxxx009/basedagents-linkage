@@ -375,5 +375,57 @@
    }
   ],
   "confidence": "strong"
+ },
+ {
+  "basedagents_id": "ag_3PSQ4y5DL14vtg1PMqcvhthVTfis8DVrHv5YCwYCeMv5",
+  "agent_name": "AgentLot",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:io.agentlot/marketplace",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"AgentLot\" is contained in the MCP server name \"io.agentlot/marketplace\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_2NRhtmta8B67J7Nj5SUbubiSAH78vL22SY1bYdmMqj3P",
+  "agent_name": "Pesto",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:io.github.pepesto-solutions/agent-to-cart-mcp",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Pesto\" is contained in the MCP server name \"io.github.pepesto-solutions/agent-to-cart-mcp\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_Ab8shZhoKAgxxTSraqB58PqMcS5cjFiDUfFg2YcX6cic",
+  "agent_name": "Amber",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:app.ambernotes/amber-notes",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Amber\" is contained in the MCP server name \"app.ambernotes/amber-notes\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
+ },
+ {
+  "basedagents_id": "ag_2gpk7Z9ViieLMEhnE4QCCRH246HQXBCEuev7NZzeDL1k",
+  "agent_name": "Kestrel",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:com.kestrelvoice/kestrelvoice",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Kestrel\" is contained in the MCP server name \"com.kestrelvoice/kestrelvoice\" (name rule only)"
+   }
+  ],
+  "confidence": "weak"
  }
 ]
