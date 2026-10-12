@@ -1,0 +1,325 @@
+[
+ {
+  "basedagents_id": "ag_FBJF9zqQKKLqSY92FddvZ1RShmUHoeSJDB7CGEUEHg9a",
+  "agent_name": "Albert",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:io.github.Albert-Tam/scrappycoco",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Albert\" is contained in the MCP server name \"io.github.Albert-Tam/scrappycoco\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": false,
+  "rejected_because": "review item 5: private-individual name row (no organisation, no profile URL, no wallet) and no shared identifier"
+ },
+ {
+  "basedagents_id": "ag_5PB4tD9dtvvtQbCWyyPCLRbsi9H5PMh8HbYxxCm3kL3b",
+  "agent_name": "Based",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:br.com.rebasedev/vagas",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Based\" is contained in the MCP server name \"br.com.rebasedev/vagas\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": false,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_97AT2Wcb33QT5icBF7AbCt2LScTXjQ1o8iRGjQJKyavU",
+  "agent_name": "FlowAG",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:net.payflowagent/mcp",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"FlowAG\" is contained in the MCP server name \"net.payflowagent/mcp\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": true,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_L5DSALfbHhztuSAhZTpspgnPxQTvWHd4gBJPabAwmdD",
+  "agent_name": "Jonah",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:io.github.JonahAlexanian/cpfs-mcp",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Jonah\" is contained in the MCP server name \"io.github.JonahAlexanian/cpfs-mcp\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": false,
+  "rejected_because": "review item 5: private-individual name row (no organisation, no profile URL, no wallet) and no shared identifier"
+ },
+ {
+  "basedagents_id": "ag_cfj9aQeoG9rT5BSdyfy9FAg8QnsbGoVdFCP5mugZwoC",
+  "agent_name": "niels",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:com.danielsdesignstudio/mirror-ai-citability",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"niels\" is contained in the MCP server name \"com.danielsdesignstudio/mirror-ai-citability\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": false,
+  "rejected_because": "review item 5: private-individual name row (no organisation, no profile URL, no wallet) and no shared identifier"
+ },
+ {
+  "basedagents_id": "ag_GndCYg47RDMC4t1jzjx7gFD96VrXLB2ttD1hFwoyGjwm",
+  "agent_name": "STAgent",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:com.stagenth/browser",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"STAgent\" is contained in the MCP server name \"com.stagenth/browser\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": true,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_24sEA52BHRJ12GRzZLReEgLwZizEdHBHvuSEkowG4jDy",
+  "agent_name": "TestAgent",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:io.github.attestagents/attest-mcp",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"TestAgent\" is contained in the MCP server name \"io.github.attestagents/attest-mcp\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": true,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_BKtSrjeKf59aZVsfrPf5rgVVCVSSsaokBUBVKYjuetTp",
+  "agent_name": "GENESIS",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:com.sednasystem/genesis",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"GENESIS\" is contained in the MCP server name \"com.sednasystem/genesis\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": true,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_7ESac4Xr3FDCFLMFavSrbP2ofiP2XqJycHh6w11e1bW9",
+  "agent_name": "BASEDAGENT",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:io.github.maxfain/basedagents",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"BASEDAGENT\" is contained in the MCP server name \"io.github.maxfain/basedagents\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": false,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_GphzPZR42oiPzZmBL5pWkiDEy567ey1ZgBq2CxXQ4VjF",
+  "agent_name": "Serene",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:uk.co.leaserenewalcost/site",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Serene\" is contained in the MCP server name \"uk.co.leaserenewalcost/site\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": false,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_CByG4z5N45yscSzfuMbK4D9r6PnLykaFz7UEnqGJqZYU",
+  "agent_name": "Phoenix",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:com.dropwatchhq/phoenix-screen",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Phoenix\" is contained in the MCP server name \"com.dropwatchhq/phoenix-screen\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": true,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_2gpk7Z9ViieLMEhnE4QCCRH246HQXBCEuev7NZzeDL1k",
+  "agent_name": "Kestrel",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:dev.workers.perch-app.kestrel/kestrel",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Kestrel\" is contained in the MCP server name \"dev.workers.perch-app.kestrel/kestrel\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": false,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_H8YyjE2mJ5QPa52vi5TfB7YK7Tai3i8EhB2E9PKHfYJ6",
+  "agent_name": "nonsynthetic",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:dev.pages.nonsynthetic/apex-edge",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"nonsynthetic\" is contained in the MCP server name \"dev.pages.nonsynthetic/apex-edge\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": true,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_E7sFi479fG7QGBMrkMdgqJsueX4HcvK6zrTUxmfXz8i8",
+  "agent_name": "arden",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:ae.plantguide/dubai-gardening",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"arden\" is contained in the MCP server name \"ae.plantguide/dubai-gardening\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": false,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_2NRhtmta8B67J7Nj5SUbubiSAH78vL22SY1bYdmMqj3P",
+  "agent_name": "Pesto",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:io.github.pepesto-solutions/agent-to-cart-mcp",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Pesto\" is contained in the MCP server name \"io.github.pepesto-solutions/agent-to-cart-mcp\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": true,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_Ab8shZhoKAgxxTSraqB58PqMcS5cjFiDUfFg2YcX6cic",
+  "agent_name": "Amber",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:app.ambernotes/amber-notes",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Amber\" is contained in the MCP server name \"app.ambernotes/amber-notes\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": true,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ },
+ {
+  "basedagents_id": "ag_2gpk7Z9ViieLMEhnE4QCCRH246HQXBCEuev7NZzeDL1k",
+  "agent_name": "Kestrel",
+  "external_registry": "mcp-registry",
+  "external_id": "mcp-registry:com.kestrelvoice/kestrelvoice",
+  "evidence": [
+   {
+    "type": "name-similarity",
+    "detail": "profile name \"Kestrel\" is contained in the MCP server name \"com.kestrelvoice/kestrelvoice\" (name rule only)"
+   }
+  ],
+  "confidence": "weak",
+  "shared_identifier": null,
+  "identifier_kind": "none",
+  "identifier_how": null,
+  "profile_has_org": false,
+  "profile_has_wallet": false,
+  "rejected_because": "review item 3: name-similarity only — no shared identifier (no id, no wallet, no shared URL/host), so it counts as not correct"
+ }
+]
