@@ -1,0 +1,27 @@
+{
+  "computed_at": "2026-10-12T20:12:17.042Z",
+  "rule": "review item 3: a line counts as correct only when it states a shared identifier (wallet, agent id, same URL, same host). Lines without one are in links_rejected.json and count as not correct.",
+  "rows_in": 34,
+  "rows_from_probe": 33,
+  "rows_injected_blocked": 1,
+  "rows_kept": 17,
+  "rows_kept_blocked": 1,
+  "rows_rejected": 17,
+  "kept_by_identifier_kind": {
+    "agent_id": 2,
+    "wallet": 6,
+    "same_url": 4,
+    "same_host": 5
+  },
+  "kept_by_tier": {
+    "verified": 2,
+    "strong": 6,
+    "weak": 8,
+    "blocked": 1
+  },
+  "hard_identifier_rows": 8,
+  "precision_all_rows": 0.5,
+  "agents_with_any_kept_row": 15,
+  "agents_total": 707,
+  "coverage_pct": 2.12
+}
