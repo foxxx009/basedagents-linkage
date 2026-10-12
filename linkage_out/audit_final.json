@@ -1,0 +1,319 @@
+{
+ "summary": {
+  "sampled": 15,
+  "match": 11,
+  "no_match": 0,
+  "unreachable": 3,
+  "no_url": 1,
+  "precision_over_sampled": 0.733,
+  "precision_over_reachable": 1,
+  "rule": "MATCH requires the identifier the row claims to be present in the live response. A 200 carrying only the name is a NO_MATCH.",
+  "generated_at": "2026-10-12T20:13:43.299Z"
+ },
+ "results": [
+  {
+   "basedagents_id": "ag_2BGBwhmtDp3KPzd4mprqvKfTDjHyrEEpnXYq5SnAMBzm",
+   "agent_name": "ShadowHarness",
+   "confidence": "verified",
+   "external_registry": "shadowharness.com",
+   "external_id": "https://shadowharness.com/agents/shadowharness/",
+   "url": "https://shadowharness.com/agents/shadowharness/",
+   "final_url": "https://shadowharness.com/agents/shadowharness/",
+   "http": 200,
+   "fetched_at": "2026-10-12T20:12:31.914Z",
+   "claimed_identifier": "agent_id:ag_2BGBwhmtDp3KPzd4mprqvKfTDjHyrEEpnXYq5SnAMBzm",
+   "claimed_kind": "agent_id",
+   "result": "MATCH",
+   "detail": "live page carries the agent id ag_2BGBwhmtDp3KPzd4mprqvKfTDjHyrEEpnXYq5SnAMBzm",
+   "live_checks": {
+    "wallet": false,
+    "agent_id": true,
+    "same_url": true,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_77ynDzSES7vUDkx4GGEiVA4VVSqVByNGCZRtHv9A9TcA",
+   "agent_name": "Bounty Engineer BA-77ynDzSE",
+   "confidence": "verified",
+   "external_registry": "bounty-engineer-x402-prod.onrender.com",
+   "external_id": "https://bounty-engineer-x402-prod.onrender.com/basedagents-auto/status",
+   "url": "https://bounty-engineer-x402-prod.onrender.com/basedagents-auto/status",
+   "final_url": "https://bounty-engineer-x402-prod.onrender.com/basedagents-auto/status",
+   "http": 200,
+   "fetched_at": "2026-10-12T20:12:32.781Z",
+   "claimed_identifier": "agent_id:ag_77ynDzSES7vUDkx4GGEiVA4VVSqVByNGCZRtHv9A9TcA",
+   "claimed_kind": "agent_id",
+   "result": "MATCH",
+   "detail": "live page carries the profile wallet 0x1707e7dFAeC7977403894B1212c1DA0fBf00c07b",
+   "live_checks": {
+    "wallet": true,
+    "agent_id": true,
+    "same_url": true,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_Cg1CxzCYEnifnKRSo5q23BvhrpVG7t7PUY5uFnkiXZjw",
+   "agent_name": "RevenueSwarmWorker-FnkiXZjw",
+   "confidence": "strong",
+   "external_registry": "x402-manifest",
+   "external_id": "https://eu-tender-x402-v3-production.up.railway.app/.well-known/x402",
+   "url": "https://eu-tender-x402-v3-production.up.railway.app/.well-known/x402",
+   "final_url": "https://eu-tender-x402-v3-production.up.railway.app/.well-known/x402",
+   "http": 200,
+   "fetched_at": "2026-10-12T20:12:34.040Z",
+   "claimed_identifier": "wallet:0x5a20adca2918780db1e124ce366f423564906a9c",
+   "claimed_kind": "wallet",
+   "result": "MATCH",
+   "detail": "live page carries the profile wallet 0x5a20ADCA2918780Db1E124CE366F423564906a9C",
+   "live_checks": {
+    "wallet": true,
+    "agent_id": false,
+    "same_url": false,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_A2SdKs3PJAoAu9gmamjXk52L7KKrniHFLjCbxXzZUBvb",
+   "agent_name": "agentkit-x402",
+   "confidence": "strong",
+   "external_registry": "agentkit-x402-buy.netlify.app",
+   "external_id": "https://agentkit-x402-buy.netlify.app/.well-known/x402",
+   "url": "https://agentkit-x402-buy.netlify.app/.well-known/x402",
+   "final_url": "https://agentkit-x402-buy.netlify.app/.well-known/x402",
+   "http": 200,
+   "fetched_at": "2026-10-12T20:12:35.241Z",
+   "claimed_identifier": "wallet:0xeb76f3442eaf192ebddbc1f7eebd59cde5e00d35",
+   "claimed_kind": "wallet",
+   "result": "MATCH",
+   "detail": "live page carries the profile wallet 0xEb76f3442EAF192EBdDbc1F7EeBD59CdE5e00D35",
+   "live_checks": {
+    "wallet": true,
+    "agent_id": false,
+    "same_url": true,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_D5QLVoK1U5mm7UjRFPu9Bh2cduqc92fc6Cz9qe7EqWnM",
+   "agent_name": "TenDollarWalletWorker",
+   "confidence": "strong",
+   "external_registry": "mundodr.github.io",
+   "external_id": "https://mundodr.github.io/ten-dollar-wallet-test/",
+   "url": "https://mundodr.github.io/ten-dollar-wallet-test/",
+   "final_url": "https://mundodr.github.io/ten-dollar-wallet-test/",
+   "http": 200,
+   "fetched_at": "2026-10-12T20:12:36.538Z",
+   "claimed_identifier": "wallet:0x4244f335c42ebd82dbd1378a9cb192f582d9ad18",
+   "claimed_kind": "wallet",
+   "result": "MATCH",
+   "detail": "live page carries the profile wallet 0x4244f335c42ebd82dbd1378a9cb192f582d9ad18",
+   "live_checks": {
+    "wallet": true,
+    "agent_id": false,
+    "same_url": true,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_BG34iMwRqphVsky5zSKgPuFwxvywhE88asG3UVZnaU8n",
+   "agent_name": "SignalSprintBase",
+   "confidence": "strong",
+   "external_registry": "x402-manifest",
+   "external_id": "https://signalsprint-mqysbksh.manus.space/.well-known/x402",
+   "url": "https://signalsprint-mqysbksh.manus.space/.well-known/x402",
+   "final_url": "https://signalsprint-mqysbksh.manus.space/.well-known/x402",
+   "http": 200,
+   "fetched_at": "2026-10-12T20:12:37.557Z",
+   "claimed_identifier": "wallet:0x45cc2b3a354d4e9da2eb14189c5bbe6394c1efb6",
+   "claimed_kind": "wallet",
+   "result": "MATCH",
+   "detail": "live page carries the profile wallet 0x45cc2b3a354D4E9DA2Eb14189C5bBe6394c1Efb6",
+   "live_checks": {
+    "wallet": true,
+    "agent_id": false,
+    "same_url": false,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_785viZhiz8WjigamgT1GRVgqXjZjrtyvgLNriGmrPvG6",
+   "agent_name": "DolihiPreflightApoplous",
+   "confidence": "strong",
+   "external_registry": "x402-manifest",
+   "external_id": "https://dolihi-preflight.onrender.com/.well-known/x402",
+   "url": "https://dolihi-preflight.onrender.com/.well-known/x402",
+   "final_url": "https://dolihi-preflight.onrender.com/.well-known/x402",
+   "http": "err:fetch failed",
+   "fetched_at": "2026-10-12T20:12:39.467Z",
+   "claimed_identifier": "wallet:0x3e68fe23de33d713c74487df76d816fc9ae51867",
+   "claimed_kind": "wallet",
+   "result": "UNREACHABLE",
+   "detail": "endpoint returned err:fetch failed",
+   "live_checks": {
+    "wallet": false,
+    "agent_id": false,
+    "same_url": false,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_8vqsRqex7u5yGExgktk3joKHdgEG2xBT2xsqfDVsVycs",
+   "agent_name": "crossingkey-autoworker",
+   "confidence": "strong",
+   "external_registry": "mcp-registry",
+   "external_id": "https://crossingkeyintelligence.com",
+   "url": "https://crossingkeyintelligence.com",
+   "final_url": "https://crossingkeyintelligence.com/",
+   "http": 200,
+   "fetched_at": "2026-10-12T20:12:40.263Z",
+   "claimed_identifier": "same_url:https://crossingkeyintelligence.com",
+   "claimed_kind": "same_url",
+   "result": "MATCH",
+   "detail": "live page is the exact URL the profile publishes",
+   "live_checks": {
+    "wallet": false,
+    "agent_id": false,
+    "same_url": true,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_CUSQWUVFDkYtQiYB6jMEGwdWov5QZHhFQE3zD374H3Nt",
+   "agent_name": "ysyhlly-codex",
+   "confidence": "weak",
+   "external_registry": "github",
+   "external_id": "https://github.com/ysyhlly",
+   "url": "https://github.com/ysyhlly",
+   "final_url": "https://github.com/ysyhlly",
+   "http": 200,
+   "fetched_at": "2026-10-12T20:12:41.574Z",
+   "claimed_identifier": "same_url:https://github.com/ysyhlly",
+   "claimed_kind": "same_url",
+   "result": "MATCH",
+   "detail": "live page is the exact URL the profile publishes",
+   "live_checks": {
+    "wallet": false,
+    "agent_id": false,
+    "same_url": true,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_AbvviCAMRPtVqPbLXXdLJpFirgjvpQXAPJ4s3J8C61wh",
+   "agent_name": "Aria",
+   "confidence": "weak",
+   "external_registry": "github",
+   "external_id": "https://github.com/aria-nilradical",
+   "url": "https://github.com/aria-nilradical",
+   "final_url": "https://github.com/aria-nilradical",
+   "http": 200,
+   "fetched_at": "2026-10-12T20:12:43.142Z",
+   "claimed_identifier": "same_url:https://github.com/aria-nilradical",
+   "claimed_kind": "same_url",
+   "result": "MATCH",
+   "detail": "live page is the exact URL the profile publishes",
+   "live_checks": {
+    "wallet": false,
+    "agent_id": false,
+    "same_url": true,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_5uX5iK1Df5nbioZmRWAZh7FsUTXrhmc4D3SCoBXh1Syd",
+   "agent_name": "BasedAgents_bot",
+   "confidence": "weak",
+   "external_registry": "github",
+   "external_id": "https://github.com/maxfain/basedagents",
+   "url": "https://github.com/maxfain/basedagents",
+   "final_url": "https://github.com/maxfain/basedagents",
+   "http": 200,
+   "fetched_at": "2026-10-12T20:12:44.081Z",
+   "claimed_identifier": "same_url:https://github.com/maxfain/basedagents",
+   "claimed_kind": "same_url",
+   "result": "MATCH",
+   "detail": "live page is the exact URL the profile publishes",
+   "live_checks": {
+    "wallet": false,
+    "agent_id": false,
+    "same_url": true,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_3PSQ4y5DL14vtg1PMqcvhthVTfis8DVrHv5YCwYCeMv5",
+   "agent_name": "AgentLot",
+   "confidence": "weak",
+   "external_registry": "a2a-wellknown",
+   "external_id": "https://agentlot.io/.well-known/agent.json",
+   "url": "https://agentlot.io/.well-known/agent.json",
+   "final_url": "https://agentlot.io/.well-known/agent.json",
+   "http": 200,
+   "fetched_at": "2026-10-12T20:12:45.477Z",
+   "claimed_identifier": "same_host:agentlot.io",
+   "claimed_kind": "same_host",
+   "result": "MATCH",
+   "detail": "live page is served from the profile host agentlot.io",
+   "live_checks": {
+    "wallet": false,
+    "agent_id": false,
+    "same_url": false,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_AwykceDxkvE1hxmxkmd1k2Sr35ugsSKTRm1azw4PBxVv",
+   "agent_name": "chiefofstaff",
+   "confidence": "weak",
+   "external_registry": "mcp-registry",
+   "external_id": "mcp-registry:com.run402.chiefofstaff-solana/token-safety",
+   "url": "mcp-registry:com.run402.chiefofstaff-solana/token-safety",
+   "result": "NO_URL",
+   "detail": "no fetchable URL for this external id"
+  },
+  {
+   "basedagents_id": "ag_FyLXYy6wUF6ZbMN2S5DrTH4uk17cCpcuQVWivsYjaYPw",
+   "agent_name": "APSA-2026",
+   "confidence": "weak",
+   "external_registry": "x402-manifest",
+   "external_id": "https://apsa-2026.onrender.com/.well-known/x402",
+   "url": "https://apsa-2026.onrender.com/.well-known/x402",
+   "final_url": "https://apsa-2026.onrender.com/.well-known/x402",
+   "http": "err:The operation was aborted due to timeout",
+   "fetched_at": "2026-10-12T20:13:11.990Z",
+   "claimed_identifier": "same_host:apsa-2026.onrender.com",
+   "claimed_kind": "same_host",
+   "result": "UNREACHABLE",
+   "detail": "endpoint returned err:The operation was aborted due to timeout",
+   "live_checks": {
+    "wallet": false,
+    "agent_id": false,
+    "same_url": false,
+    "same_host": true
+   }
+  },
+  {
+   "basedagents_id": "ag_GgkR34fNWT1cEjfFxaE1jjVQDhPknNLWWMHYzGshkdun",
+   "agent_name": "NexusHubLaunchAuditor-20260915",
+   "confidence": "blocked",
+   "external_registry": "x402-manifest",
+   "external_id": "https://nexushub.nexus/.well-known/x402",
+   "url": "https://nexushub.nexus/.well-known/x402",
+   "final_url": "https://nexushub.nexus/.well-known/x402",
+   "http": 429,
+   "fetched_at": "2026-10-12T20:13:42.409Z",
+   "claimed_identifier": "same_host:nexushub.nexus",
+   "claimed_kind": "same_host",
+   "result": "UNREACHABLE",
+   "detail": "endpoint returned 429",
+   "live_checks": {
+    "wallet": false,
+    "agent_id": false,
+    "same_url": false,
+    "same_host": true
+   }
+  }
+ ]
+}
