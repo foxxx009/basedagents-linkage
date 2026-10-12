@@ -14185,5 +14185,23 @@
   "url": "https://kestrelvoice.com",
   "http": "200",
   "fetched_at": "2026-10-12T20:12:16.668Z"
+ },
+ {
+  "url": "https://nexushub.nexus/.well-known/x402",
+  "http": "429",
+  "fetched_at": "2026-10-12T20:16:54.953Z",
+  "note": "delivery-time re-probe (reprobe_blocked.mjs)"
+ },
+ {
+  "url": "https://nexushub-web-launch-preflight.vercel.app/.well-known/x402",
+  "http": "err:fetch failed",
+  "fetched_at": "2026-10-12T20:16:55.232Z",
+  "note": "delivery-time re-probe (reprobe_blocked.mjs)"
+ },
+ {
+  "url": "https://gas-ventures.vercel.app/.well-known/x402",
+  "http": "err:fetch failed",
+  "fetched_at": "2026-10-12T20:17:05.564Z",
+  "note": "delivery-time re-probe (reprobe_blocked.mjs)"
  }
 ]
